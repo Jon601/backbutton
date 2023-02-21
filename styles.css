@@ -1,0 +1,18 @@
+.details {cursor:default;position:relative;}
+.details:hover, details:focus {background:#cde5ff;}
+.num_selector {float: left; min-width: 10px; text-align: right; font-size: 10px;
+               margin: 1px 3px 0 0; color: #858586;}
+.icon {float: left; margin-right: 4px;}
+.title {color:#757576;}
+.subtitle {color:#a5b7a5;}
+
+.remove {position:absolute;top:2px;right:5px;color:#858586;text-decoration:none;font-size:10px;display:none;}
+.info {margin-right:15px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+.links .details {border-bottom:1px solid #f1f8ff;padding:3px 0 2px;}
+.links .details:last-child {border:none;}
+.links .subtitle {margin:0 0 0 25px;}
+
+.links_inline .details {padding:4px 0;}
+.links_inline .title {display:inline;}
+.links_inline .subtitle {padding:0 0 0 4px;display:inline;}
